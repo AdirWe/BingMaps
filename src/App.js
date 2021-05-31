@@ -46,7 +46,7 @@ export default App;
 
 const AppWrapper = styled.div`
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 3fr;
   width: 100%;
   height: 100vh;
 `;
