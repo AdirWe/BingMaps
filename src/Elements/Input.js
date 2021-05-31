@@ -9,6 +9,7 @@ const Input = ({ value, setValue, ...props }) => {
           onChange={(e) => setValue(e.target.value)}
           value={value}
           type={props.type ? props.type : "text"}
+          placeholder={props.placeholder ? props.placeholder : ""}
         />
       </StyledDiv>
     </Wrapper>
